@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="raw/Bella Olonje logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Bella Onojie</title>
 </head>
 <body>
@@ -15,38 +21,44 @@
                 <img src="raw/Bella_Olonje_logo.svg" alt="Bella Onojie logo">
             </div>
             <div class="nav-elements">
+                <span></span>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="nav-menu-list" href="#home">Home</a></li>
+                    <li><a class="nav-menu-list" href="#product">Product</a></li>
+                    <li><a class="nav-menu-list" href="#faq">FAQ</a></li>
+                    <li><a class="nav-menu-list" href="#contact">Contact</a></li>
                 </ul>
             </div>
+            <img class="nav-icon" src="raw/menu.svg" alt="menu icon">
         </nav>
     </header>
     <main>
         <div id="home" class="wrapper frist-sec">
-            <h3>Food app</h3>
-            <h1>Why stay hungry when you can order form Bella Onojie</h1>
-            <h4>Download the bella onoje’s food app now on</h4>
-            <button class="play-store">Playstore</button>
-            <button class="App-store">App store</button>
+            <div class="first-sec-text">
+                <h3>Food app</h3>
+                <h1>Why stay hungry when you can order form Bella Onojie</h1>
+                <h4>Download the bella onoje’s food app now on</h4>
+            </div>
+            <div class="first-sec-button">
+                <button class="play-store">Playstore</button>
+                <button class="app-store">App store</button>
+            </div>
         </div>
         <div class="wrapper second-sec">
             <div class="sec-img">
-                <img src="raw/phone_view_main.png" alt="App view on phone">
-                <img src="raw/phone_view_sec.png" alt="App view on phone">
+                <img class="first-img" src="raw/phone_view_main_edit.png" alt="App view on phone">
+                <img class="second-img" src="raw/phone_view_sec.png" alt="App view on phone">
             </div>
-            <hr>
             <div class="sec-text">
                 <p>How the app works</p>
             </div>
+            <hr>
         </div>
         <div class="wrapper third-sec">
-            <div class="left-img">
+            <div class="sec-img">
                 <img src="raw/phone_view_how_app_work.png" alt="App login view on phone">
             </div>
-            <div class="right-text">
+            <div class="sec-text">
                 <h3>Create an account</h3>
                 <h2>Create/login to an existing
                 <br>
@@ -57,7 +69,7 @@
             </div>
         </div>
         <div class="wrapper forth-sec">
-            <div class="left-text">
+            <div class="sec-text">
                 <h3>Explore varieties</h3>
                 <h2>Shop for your favorites
                 <br>
@@ -66,15 +78,15 @@
                 <br>    
                 and enjoy while doing it.</h4>
             </div>
-            <div class="right-img">
+            <div class="sec-img">
                 <img src="raw/phone_view_explore.png" alt="App main view on phone">
             </div>
         </div>
         <div class="wrapper fifth-sec">
-            <div class="left-img">
+            <div class="sec-img">
                 <img src="raw/phone_view_payment.png" alt="App payment view on phone">
             </div>
-            <div class="right-text">
+            <div class="sec-text">
                 <h3>Checkout</h3>
                 <h2>When you done check out
                 <br>
@@ -85,10 +97,27 @@
             </div>
         </div>
         <div class="wrapper sixth-sec">
-            <h2>Download the app now.</h2>
-            <h4>Available on your favorite store. Start your premium experience now</h4>
-            <button class="play-store">Playstore</button>
-            <button class="App-store">App store</button>
+            <div class="sec-container">
+                <div class="sec-text">
+                    <h2>Download the app now.</h2>
+                    <h4>Available on your favorite store. Start your premium experience now</h4>
+                </div>
+                <div class="sec-button">
+                    <button class="play-store">Playstore</button>
+                    <button class="app-store">App store</button>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper special-sec">
+            <div class="sec-container">
+                <div class="sec-text">
+                    <h2>Download the app now.</h2>
+                </div>
+                <div class="sec-button">
+                    <button class="play-store">Buy now</button>
+                    <button class="app-store">Try for free</button>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="footer-logo">
@@ -96,7 +125,7 @@
             </div>
             <div class="footer-social">
                 <img src="raw/twitter-outlined.svg" alt="Twitter icon">
-                <img src="raw/facebook-filled.svg" alt="Facebook icon">
+                <img src="raw/facebook.svg" alt="Facebook icon">
                 <img src="raw/instagram.svg" alt="Instagram icon">
             </div>
             <div class="copyright">
@@ -104,5 +133,6 @@
             </div>
         </footer>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
