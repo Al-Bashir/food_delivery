@@ -696,6 +696,11 @@ header nav .nav-icon {
     font-size: 23px;
   }
 }
+@media (min-width: 1024px) {
+  .third-sec .sec-text h2, .forth-sec .sec-text h2, .fifth-sec .sec-text h2 {
+    font-size: 28px;
+  }
+}
 
 .third-sec .sec-text h4, .forth-sec .sec-text h4, .fifth-sec .sec-text h4 {
   font-family: "Montserrat", sans-serif;
@@ -717,6 +722,11 @@ header nav .nav-icon {
     padding: 0 42px 0 0;
     text-align: left;
     font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .third-sec .sec-text h4, .forth-sec .sec-text h4, .fifth-sec .sec-text h4 {
+    font-size: 19px;
   }
 }
 
@@ -808,7 +818,7 @@ header nav .nav-icon {
     background-color: var(--secondary-color);
     background-image: url("../raw/sec-background.png");
     background-repeat: no-repeat;
-    background-size: 768px 400px;
+    background-size: 100% 100%;
   }
 }
 
