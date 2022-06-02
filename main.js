@@ -11,7 +11,10 @@ navElements.childNodes[1].addEventListener('click', () => {
 })
 navMenuList.forEach((child)=>{
     child.addEventListener('click', () => {
-        navElements.style.display = 'none';
-        navElements.classList.remove('nav-menu');
+        if (window.matchMedia("(max-width: 767px)").matches){
+            console.log(window.matchMedia("(min-width: 767px)"))
+            navElements.style.display = 'none';
+            navElements.classList.remove('nav-menu');
+        }
     })
 })
